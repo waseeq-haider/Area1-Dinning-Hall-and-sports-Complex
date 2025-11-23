@@ -3,3 +3,8 @@ compatibility_date = "2024-11-23"
 
 # Cloudflare Pages configuration
 pages_build_output_dir = "dist"
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 87556bf0eba515f915fd079991aba6c21e9634b0
