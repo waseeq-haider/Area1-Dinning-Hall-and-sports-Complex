@@ -4,16 +4,4 @@ compatibility_date = "2024-11-23"
 # Cloudflare Pages configuration
 pages_build_output_dir = "dist"
 
-[build]
-command = "npm run build"
-cwd = ""
 
-[build.environment]
-NODE_VERSION = "18"
-
-# Environment variables (add your own as needed)
-[env.production]
-# Add production environment variables here
-
-[env.preview]
-# Add preview environment variables here
