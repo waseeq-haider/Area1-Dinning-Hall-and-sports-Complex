@@ -96,7 +96,7 @@ const areas: Area[] = [
 ];
 
 export const SiteMap = () => {
-  const [selectedArea, setSelectedArea] = useState<Area | null>(areas[2]); // Area 3 default
+  const [selectedArea, setSelectedArea] = useState<Area | null>(areas[0]); // Area 1 default
   const [hoveredArea, setHoveredArea] = useState<number | null>(null);
 
   const getConnectionPath = (from: Area, to: Area) => {
@@ -111,7 +111,7 @@ export const SiteMap = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Interactive Site Map</h2>
           <div className="w-16 h-1 bg-accent mx-auto mb-8" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Explore how Area 3 connects to all other zones at Musafir Retreats & Camps
+            Explore how Area 1 connects to all other zones at Musafir Retreats & Camps
           </p>
         </div>
 
@@ -222,7 +222,7 @@ export const SiteMap = () => {
                     <div className="space-y-2 text-xs">
                       <div className="flex items-center gap-2">
                         <div className="w-4 h-4 rounded-full bg-nature-green" />
-                        <span>Area 3 (Current)</span>
+                        <span>Area 1 (Current)</span>
                       </div>
                       <div className="flex items-center gap-2">
                         <div className="w-3 h-0.5 border-t-2 border-dashed border-muted-foreground" />
@@ -307,8 +307,8 @@ export const SiteMap = () => {
                       key={area.id}
                       onClick={() => setSelectedArea(area)}
                       className={`p-2 rounded-lg text-xs font-medium transition-all ${selectedArea?.id === area.id
-                          ? 'bg-accent text-accent-foreground'
-                          : 'bg-muted hover:bg-muted/80'
+                        ? 'bg-accent text-accent-foreground'
+                        : 'bg-muted hover:bg-muted/80'
                         }`}
                     >
                       Area {area.id}
