@@ -15,12 +15,13 @@
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
 <div align="center">
 
-### Full Page Preview
-![Area 1 - Dining Hall & Sports Complex](https://i.ibb.co/m5CCyXD2/area1.png)
+![Area 1 - Dining Hall & Sports Complex](./screenshots/area1-preview.png)
+
+*Full page preview of Area 1 landing page*
 
 </div>
 
